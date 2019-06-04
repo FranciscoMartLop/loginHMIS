@@ -1,0 +1,88 @@
+div.main {
+    font-family: Arial, Helvetica, sans-serif;
+    border: 1px solid grey;
+    box-shadow: 1px 1px 1px grey;
+    background-color: white;
+    position: fixed;
+    top: 30%;
+    width: 30%;
+    left: calc(50% - 15%);
+    z-index: 1000;
+}
+
+div.body {
+    padding: 0% 35%;
+}
+
+form.create{
+    padding: 0% 10%;
+}
+
+h4 {
+    padding: 1% 10%;
+    padding-top: 4%;
+}
+
+h3 {
+    top: 23%;
+    position: fixed;
+    width: 30%;
+    left: calc(50% - 15%);
+    z-index: 1000;
+}
+
+.vertical-menu {
+    padding: 2%;
+    padding-left: 5%;
+    width: 20%;
+    text-align: center;
+  }
+  
+  .vertical-menu input {
+    color: black;
+    background-color: white;
+    display: block;
+    border: 1px solid black;
+    padding: 5%;
+    border-radius: 3%;
+    color: rgb(20, 190, 247);
+    text-decoration: none;
+    width: 100%;
+  }
+  
+  .vertical-menu input:hover {
+    background-color: #ccc;
+    text-decoration: none;
+  }
+  
+  .vertical-menu input.active {
+    background-color: rgb(79, 114, 209);
+    color: black;
+  }
+
+  .all_users {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    text-align: center;
+    border: 1px solid black;
+    width: 90%;
+    margin: 0 auto;
+}
+
+.tables_title {
+    font-family: 'Share', Verdana, Geneva, Arial, Helvetica, sans-serif;
+    color: black;
+    font-size: larger;
+    border: 1px solid black;
+    text-align: center;
+    background: #cde0eb;
+}
+
+td {
+    border: 1px solid black;
+}
+
+input.btn {
+    border: none;
+    background-color: white;
+    color: blue;
+}
